@@ -5,130 +5,140 @@
   <meta charset="utf-8">
   <meta name="description" content="Personal Resume Site For Tzach Fleischer">
   <title>Tzach Fleischer</title>
-<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 
+  <title></title>
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Tzach Photo.jpg" alt="Tzach profile picture" width="250" height="200"></td>
-      <td>
-        <h1>Tzach Fleischer</h1>
-        <p><em>BSc. Computer Science Student at <strong><a href="https://www.hit.ac.il/">HIT</a></strong></em></p>
-        <p>3rd year student of Computer Science.<br> Strong Python skills, C, C++.
-          <br>hardworking, dilligent, team player.<br>
-          <a href="https://github.com/Tzach182">github page</a>
-        </p>
-      </td>
-    </tr>
-  </table>
+
+  <div class="top-container">
+    <img class="top-cloud" src="images\cloud.png" alt="cloud-img">
+    <h1>Tzach Fleischer</h1>
+    <img class="bottom-cloud" src="images\cloud.png" alt="cloud-img">
+    <img src="images\mountain.png" alt=",ountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images\Tzach Photo.jpg" class="profile-picture" alt="">
+      <h2>BSc. Computer Science Student at HIT</h2>
+      <p>3rd year student of Computer Science.<br> Strong Python skills, C, C++.
+        <br>hardworking, dilligent, team player.<br></p>
+    </div>
+
+    <hr>
+
+    <div class="education">
+      <h2>Education</h2>
+      <div class="education-row">
+        <img src="images\hit_logo.svg" class="hit-logo" alt="">
+        <table>
+        <tr>
+          <td>
+            <h3>B.Sc: Computer Science </h3>
+            <strong>HIT - Holon Institute of Technology</strong> <br>
+            2020 – Current
+            <ul>
+              <li> Object Oriented Programming – Implemented a shape paint program using MFC</li>
+              <li>Data science – use of pandas, matplotlib, Sci-Kit Learn, Using API and beautiful soup,<br> created a scraper of the site Metacritic and used machine learning algorithms to predict video games scores.</li>
+              <li>Operating systems</li>
+              <li>Databases - SQL</li>
+
+          </td>
+        </tr>
+        </table>
+      </div>
+
+      <div class="education-row">
+        <img src="images\rimon_logo.jpg" class="rimon-logo" alt="">
+        <table>
+          <tr>
+            <td><h3>Guitar Performance and Electronic Music </h3>
+              <strong>Rimon School for Jazz and Contemporary Music</strong> <br>
+              2015 – 2017
+              <ul>
+                <li>Guitar composition and Jazz</li>
+                <li>Synthesizers</li>
+                <li>Ableton</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="work-history">
+      <h2>Work History</h2>
+      <div class="education-row">
+        <table>
+        <tr>
+          <td>
+            <strong>Data Verification Analyst </strong><br>
+            <strong>Wix</strong> <br>
+            2021 – 2022
+            <ul>
+              <li> Researched user-product potential for point of sale (POS) via manual review of user sites and matching against internal datapoints</li>
+              <li>contributed to the build of an automated lead scoring model for identifying product fit amongst user</li>
+
+          </td>
+        </tr>
+        </table>
+      </div>
+
+      <div class="education-row">
+        <table>
+          <tr>
+            <td><strong>Security Profiler </strong><br>
+              <strong>Ben-Gurion Airport</strong> <br>
+              2018 – 2021
+              <ul>
+                <li>Mitigated security risk via analysis of behavior and character-based traits</li>
+                <li>Conducted passenger security checks with the help of technological tools and conversational methods.</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="education-row">
+      <table>
+        <tr>
+          <td>
+            <strong>Security Escort and EMT</strong><br>
+            <strong>MET - Medical Emergency Training inc.</strong> <br>
+            2014 - 2016
+            <ul>
+              <li>Accompanied civilian groups, provided security and emergency response.</li>
+              <li>Administered first aid response</li>
+        </tr>
+      </table>
+    </div>
+  </div>
+    <hr>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <a class="btn" href="tzahflisher@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
 
-  <hr>
-  <h3>Education</h3>
-
-  <table cellspacing="30">
-    <tbody>
-      <tr>
-        <td>2020 – Current</td>
-        <td>
-          <strong>B.Sc: Computer Science </strong><br>
-          <strong>HIT - Holon Institute of Technology</strong> <br>
-          <ul>
-            <li> Object Oriented Programming – Implemented a shape paint program using MFC</li>
-            <li>Data science – use of pandas, matplotlib, Sci-Kit Learn, Using API and beautiful soup,<br> created a scraper of the site Metacritic and used machine learning algorithms to predict video games scores.</li>
-            <li>Operating systems</li>
-            <li>Databases - SQL</li>
-
-        </td>
-      </tr>
-      <tr>
-        <td>2015 – 2017</td>
-        <td><strong>Guitar Performance and Electronic Music </strong><br>
-          <strong>Rimon School for Jazz and Contemporary Music</strong> <br>
-          <ul>
-            <li>Guitar composition and Jazz</li>
-            <li>Synthesizers</li>
-            <li>Ableton</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-
-  </table>
-  <hr>
-  <h3>Work History</h3>
-
-  <table cellspacing="30">
-    <thead>
-      <tr>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2021 – 2022</td>
-        <td>
-          <strong>Data Verification Analyst </strong><br>
-          <strong>Wix</strong> <br>
-          <ul>
-            <li> Researched user-product potential for point of sale (POS) via manual review of user sites and matching against internal datapoints</li>
-            <li>contributed to the build of an automated lead scoring model for identifying product fit amongst user</li>
-
-        </td>
-      </tr>
-      <tr>
-        <td>2018 – 2021</td>
-        <td><strong>Security Profiler </strong><br>
-          <strong>Ben-Gurion Airport</strong> <br>
-          <ul>
-            <li>Mitigated security risk via analysis of behavior and character-based traits</li>
-            <li>Conducted passenger security checks with the help of technological tools and conversational methods.</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>2014 - 2016</td>
-        <td>
-          <strong>Security Escort and EMT</strong><br>
-          <strong>MET - Medical Emergency Training inc.</strong> <br>
-          <ul>
-            <li>Accompanied civilian groups, provided security and emergency response.</li>
-            <li>Administered first aid response</li>
 
 
-      </tr>
-      <tr>
-        <td>2010 - 2014</td>
-        <td>
-          <strong>Officer</strong><br>
-          <strong>IDF</strong> <br>
-          <ul>
-            <li>First Lieutenant - 36th Division - Combat Engineering unit.</li>
-            <li>Captain in Reserve - 7th Brigade - Combat Engineering unit.</li>
-      </tr>
-    </tbody>
-
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="30">
-    <tr>
-      <td>Programming languages:</td>
-      <td>C, C++, Python, HTML, SQL</td>
-    </tr>
-    <tr>
-      <td>skills:</td>
-      <td>Machine Learning, OOP, Data Structures, Databases, Statistics, Data Analysis.</td>
-    </tr>
-    <tr>
-      <td>languages:</td>
-      <td>Hebrew - Native, English - Professional working proficiency</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="contact-me.html">Contact Me</a>
-
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/tzach-fleischer-software-developer/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/Tzach182">Github</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2022 Tzach Fleischer.</p>
+  </div>
 </body>
 
 </html>
